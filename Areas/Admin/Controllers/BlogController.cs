@@ -10,8 +10,8 @@ namespace MyBlog.Controllers
     [Area("Admin")]
     public class BlogController : Controller
     {
-        private readonly BlogDBContext dbContext;
-        public BlogController(BlogDBContext dbContext)
+        private readonly BlogDbContext dbContext;
+        public BlogController(BlogDbContext dbContext)
         {
             this.dbContext = dbContext;
         }

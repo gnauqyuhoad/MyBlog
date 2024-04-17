@@ -5,9 +5,9 @@ using System.Security.Policy;
 
 namespace MyBlog.Models
 {
-    public class BlogDBContext : DbContext
+    public class BlogDbContext : DbContext
     {
-        public BlogDBContext(DbContextOptions<BlogDBContext> options) : base(options) { }
+        public BlogDbContext(DbContextOptions<BlogDbContext> options) : base(options) { }
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Category> Categories { get; set; }
     }

@@ -8,7 +8,7 @@ using MyBlog.Models;
 
 namespace MyBlog.Migrations
 {
-    [DbContext(typeof(BlogDBContext))]
+    [DbContext(typeof(BlogDbContext))]
     partial class BlogDBContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

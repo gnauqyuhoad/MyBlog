@@ -26,7 +26,7 @@ namespace MyBlog
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<BlogDBContext>(
+            services.AddDbContext<BlogDbContext>(
                 option => option.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 

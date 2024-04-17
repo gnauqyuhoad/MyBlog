@@ -9,7 +9,7 @@ using MyBlog.Models;
 
 namespace MyBlog.Migrations
 {
-    [DbContext(typeof(BlogDBContext))]
+    [DbContext(typeof(BlogDbContext))]
     [Migration("20240406071152_LanKhoiTaoDauTien")]
     partial class LanKhoiTaoDauTien
     {
